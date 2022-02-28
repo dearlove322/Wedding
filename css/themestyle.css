@@ -1,5 +1,57 @@
+/*
+Theme Name: TwoGether
+Theme URI: https://www.solwininfotech.com/product/wordpress-themes/twogether-wedding-wordpress-theme/
+Author: The Solwin Infotech Team
+Author URI: https://www.solwininfotech.com
+Description: TwoGether is a beautiful, free responsive WordPress theme designed for one page or multi page wedding websites. The theme includes mulitple pages, home page slider, bride-groom sections, our gallery, our story, wedding programs listing. The theme can also be used for wedding photographers and any other event organization websites with its capacity of editable sections and color schemes.
+Version: 1.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, left-sidebar, right-sidebar, custom-menu, custom-colors, featured-images, flexible-header, full-width-template, theme-options, translation-ready
+Text Domain: twogether
+*/
 
-@font-face {
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Reset
+ * 2.0 - HTML tags
+ * 3.0 - Alignment
+ * 4.0 - Comments
+ * 5.0 - Navigation
+ * 6.0 - Goto Top Button
+ * 7.0 - Widget
+ * 8.0 - Sidebar
+ * 9.0 - Header
+ * 10.0 - Content
+        10.1.0 - Single Post
+        10.2.0 - Post Thumbnail
+        10.3.0 - 404 Page
+        10.4.0 - Blog Page
+        10.5.0 - Home Page
+        10.6.0 - Contact form
+ * 11.0 - Shortcode
+ * 12.0 - Blog Desiger Support
+ * 13.0 - Give Plugin Support
+ * 14.0 - Ninja Form Support
+ * 15.0 - Footer
+ * 16.0 - Media Queries
+ * other code
+ */
+
+/**
+ * 1.0 - Reset
+ *
+ * Resetting and rebuilding styles have been helped along thanks to the fine
+ * work of Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+ * along with Nicolas Gallagher and Jonathan Neal
+ * http://necolas.github.com/normalize.css/ and Blueprint
+ * http://www.blueprintcss.org/
+ *
+ * -----------------------------------------------------------------------------
+ */
+
+ @font-face {
     font-family: "OpenSansRegular";
     src: url('fonts/opensansregular/OpenSans-Regular.eot');
     src: url('fonts/opensansregular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/opensansregular/OpenSans-Regular.svg#Open Sans') format('svg'), url('fonts/opensansregular/OpenSans-Regular.woff') format('woff'), url('fonts/opensansregular/OpenSans-Regular.ttf') format('truetype');
